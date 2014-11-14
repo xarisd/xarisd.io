@@ -1,0 +1,14 @@
+- name: Ruby Basics I
+  where: thessrb
+  when: 2014-06-20
+  description: foobar
+
+- name: Ruby Basics II
+  where: thessrb
+  when: 2014-09-20
+  description: foobar
+
+- name: Thessrb at We are Together event
+  where: 2nd WeAreTogether event
+  when: 2014-11-07
+  description: foobar
