@@ -1,23 +1,7 @@
 ---
-layout: default
+layout: frontpage
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<h1>Haris Dimitriou</h1>
+<h2>Freelance Web Developer</h2>
+<p>Hi there! I am Haris Dimitriou. I <a href="/blog">blog</a>, I <a href="https://github.com/xarisd">write code</a> and I <a href="http://twitter.com/xarisd">communicate</a></p>
