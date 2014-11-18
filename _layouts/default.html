@@ -4,17 +4,19 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    {% if page.hero %}
+      <div class="hero" style="background-image: url({{ page.hero }});"></div>
+    {% endif %}
+
+    <div class="site-content">
+      <div class="container">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-
   </body>
 
 </html>
