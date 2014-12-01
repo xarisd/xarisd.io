@@ -2,3 +2,9 @@
 _site
 _deploy
 .sass-cache
+
+# rbenv specific
+.gems
+.rbenv-gemsets
+.ruby-version
+
