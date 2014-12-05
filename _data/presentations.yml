@@ -1,14 +1,54 @@
-- name: Ruby Basics I
-  where: thessrb
-  when: 2014-06-20
-  description: foobar
+- name: Ruby Basics (version 1.0)
+  code: ruby-basics-i
+  type: deprecated
+  event:
+    name: Thessaloniki Ruby Meetup (thessrb)
+    url: http://www.meetup.com/thessrb/events/184526192/
+    date: 2014-06-20
+  description: A presentation about Ruby's very basics. This is the first version that is done only with examples in a code editor.
+  url: https://github.com/xarisd/ruby-basics
+  source: https://github.com/xarisd/ruby-basics
 
-- name: Ruby Basics II
-  where: thessrb
-  when: 2014-09-20
-  description: foobar
+- name: Ruby Basics (version 2.0)
+  code: ruby-basics-ii
+  type:
+  event:
+    name: Thessaloniki Ruby Meetup (thessrb)
+    url: http://www.meetup.com/thessrb/events/189083642/
+    date: 2014-09-20
+  description: A presentation about Ruby's very basics. This is the second version which include slides and code examples.
+  url: ruby-basics-ii
+  source: https://github.com/xarisd/ruby-basics-ii
 
-- name: Thessrb at We are Together event
-  where: 2nd WeAreTogether event
-  when: 2014-11-07
-  description: foobar
+- name: Thessrb at 2nd "We are Together" event
+  code: thessrb-we-are-together
+  type:
+  event:
+    name: 2nd WeAreTogether event
+    url: http://skgtech.io/together/
+    date: 2014-11-07
+  description: A presentation about Thessaloniki Ruby Meetup (thessrb) that was part of the "We are together" event.
+  url: thessrb-we-are-together
+  source:
+
+- name: Rails Basics 01
+  code: rails-basics-01
+  type:
+  event:
+    name: Thessaloniki Ruby Meetup (thessrb)
+    url: http://www.meetup.com/thessrb/events/218817473/
+    date: 2014-11-25
+  description: A presentation about how to build a simple "static like" site with Ruby on Rails. <br/> It is the first part of a series of presentations about the basics of the Ruby on Rails web framework.
+  url: rails-basics-01
+  source: https://github.com/xarisd/rails-basics-01
+
+- name: Hacking Presentations
+  code: hacking-presentations
+  type:
+  event:
+    name: Thessaloniki Python Meetup (PyThess)
+    url: http://www.meetup.com/PyThess/events/218908468/
+    date: 2014-12-02
+  description: A presentation about how to build presentations (the slides) using Markdown.
+  url: hacking-presentations
+  source: https://github.com/xarisd/hacking-presentations

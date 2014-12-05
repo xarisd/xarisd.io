@@ -1,0 +1,95 @@
+$showcase-item-border-color: #EEE;
+$showcase-item-border: 1px solid $showcase-item-border-color;
+
+$showcase-links-color: #fff;
+$showcase-links-background-color: #B8602F;
+
+h1 {
+  font-size: 1.8em;
+
+  &.post-title {
+    margin-bottom: 20px;
+  }
+}
+
+.site-footer {
+  .copyright {
+    font-size: 0.8em;
+  }
+  .thanks {
+    font-size: 0.6em;
+  }
+}
+
+
+p.intro {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.showcase-list {
+  list-style-type: none;
+  padding-left: 0px;
+
+  .showcase-item {
+    border-bottom: $showcase-item-border;
+    padding: 40px 0;
+
+    &:first-child {
+        /*border-top: $showcase-item-border;*/
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+
+    h3.title {
+      margin-bottom: 0.1rem;
+      font-size: 1.2em;
+      font-weight: bold;
+      /*font-style: italic;*/
+    }
+
+    .event-info {
+      margin-bottom: 1rem;
+      font-size: .6em;
+      /*font-style: italic;*/
+      a {
+        color: #555;
+        text-decoration: underline;
+      }
+    }
+
+    .description {
+      /*background-color: red;*/
+      /*margin-bottom: 20px;*/
+      font-size: .8em;
+    }
+
+    .links {
+      margin-bottom: 0px;
+      font-size: .8em;
+
+      a {
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none;
+
+
+        background-color: $showcase-links-color;
+        color: $showcase-links-background-color;
+        border: 1px solid $showcase-links-background-color;
+
+
+        &:hover {
+          text-decoration: none;
+
+          color: $showcase-links-color;
+          background-color: $showcase-links-background-color;
+          border: 1px solid $showcase-links-background-color;
+        }
+      }
+    }
+  }
+}
