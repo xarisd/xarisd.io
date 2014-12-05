@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.6)
     blankslate (2.1.2.4)
     bourbon (4.0.2)
       sass (~> 3.3)
@@ -49,6 +50,8 @@ GEM
     jekyll-watch (1.1.2)
       listen (~> 2.7)
     kramdown (1.5.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     liquid (2.6.1)
     listen (2.8.0)
       celluloid (>= 0.15.2)
@@ -63,6 +66,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -94,4 +98,6 @@ DEPENDENCIES
   bourbon
   jekyll
   jekyll-assets
+  launchy
+  rake
   sass

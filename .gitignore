@@ -8,3 +8,5 @@ _deploy
 .rbenv-gemsets
 .ruby-version
 
+# DO NOT hold secrets in repository
+credentials.yaml
