@@ -42,6 +42,9 @@ end
 
 desc "Deploys the site via FTP"
 task :deploy => [:clean, :build] do
+
+  #TODO : For a better implementation see # see https://gist.github.com/morgoth/1690647
+
   built_dir = "_deploy"
 
   puts "## Deploying website via FTP"
