@@ -31,8 +31,8 @@
     url: http://skgtech.io/together/
     date: 2014-11-07
   description: A presentation about Thessaloniki Ruby Meetup (thessrb) that was part of the "We are together" event.
-  url: thessrb-we-are-together
-  source:
+  url: https://speakerdeck.com/xarisd/thessaloniki-ruby-meetup-thessrb-at-2nd-we-are-together
+  source: https://github.com/xarisd/thessrb-at-2nd-we-are-together
   favorite: false
 
 - name: Rails Basics 01
