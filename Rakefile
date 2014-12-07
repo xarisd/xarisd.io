@@ -136,6 +136,7 @@ desc "Copies presentations to /presentations folder"
 task :copy_presentations do
   presentations_root = "~/Files/Development/xarisd/presentations"
   presentations = %w[
+    ruby-basics-ii
     rails-basics-01
     hacking-presentations
   ]

@@ -8,6 +8,7 @@
   description: A presentation about Ruby's very basics. This is the first version that is done only with examples in a code editor.
   url: https://github.com/xarisd/ruby-basics
   source: https://github.com/xarisd/ruby-basics
+  favorite: false
 
 - name: Ruby Basics (version 2.0)
   code: ruby-basics-ii
@@ -19,6 +20,8 @@
   description: A presentation about Ruby's very basics. This is the second version which include slides and code examples.
   url: ruby-basics-ii
   source: https://github.com/xarisd/ruby-basics-ii
+  favorite: true
+  favorite_order: 1
 
 - name: Thessrb at 2nd "We are Together" event
   code: thessrb-we-are-together
@@ -30,6 +33,7 @@
   description: A presentation about Thessaloniki Ruby Meetup (thessrb) that was part of the "We are together" event.
   url: thessrb-we-are-together
   source:
+  favorite: false
 
 - name: Rails Basics 01
   code: rails-basics-01
@@ -41,6 +45,7 @@
   description: A presentation about how to build a simple "static like" site with Ruby on Rails. <br/> It is the first part of a series of presentations about the basics of the Ruby on Rails web framework.
   url: rails-basics-01
   source: https://github.com/xarisd/rails-basics-01
+  favorite: false
 
 - name: Hacking Presentations
   code: hacking-presentations
@@ -52,3 +57,4 @@
   description: A presentation about how to build presentations (the slides) using Markdown.
   url: hacking-presentations
   source: https://github.com/xarisd/hacking-presentations
+  favorite: false

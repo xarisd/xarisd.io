@@ -1,6 +1,11 @@
 $showcase-item-border-color: #EEE;
 $showcase-item-border: 1px solid $showcase-item-border-color;
 
+$showcase-favorite-item-background-color: #FFF;
+$showcase-favorite-item-border-color: #EEE;
+$showcase-favorite-item-border: 1px solid $showcase-favorite-item-border-color;
+
+
 $showcase-links-color: #fff;
 $showcase-links-background-color: #B8602F;
 
@@ -25,6 +30,7 @@ h1 {
 p.intro {
   margin-top: 30px;
   margin-bottom: 20px;
+  padding: 10px 20px;
 }
 
 
@@ -35,7 +41,17 @@ p.intro {
 
   .showcase-item {
     border-bottom: $showcase-item-border;
-    padding: 40px 0;
+    padding: 40px 20px;
+
+    &.favorite {
+      background-color: $showcase-favorite-item-background-color;
+      border: $showcase-favorite-item-border;
+      border-radius: 8px;
+
+      &:last-child {
+        border: $showcase-favorite-item-border;
+      }
+    }
 
     &:first-child {
         /*border-top: $showcase-item-border;*/
@@ -69,7 +85,7 @@ p.intro {
 
     .links {
       margin-bottom: 0px;
-      font-size: .8em;
+      font-size: .7em;
 
       a {
         padding: 10px;
