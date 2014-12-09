@@ -29,7 +29,10 @@ The site is made with [Jekyll](http://jekyllrb.com/) and [rake](https://github.c
 
 6. Deploy the site somewhere via FTP (the poor man's way)
   * You will need access to an FTP server
-  * Create a <code>credentials.yaml</code> by copying the <code>credentials.example.yaml</code> and put your credentials (don't worry it is git ignored).
+  * Create a <code>configuration.yaml</code>
+  <pre><code>rake setup</code></pre>
+  or by copying the <code>configuration.example.yaml</code> file by hand
+  * Open <code>configuration.yaml</code> in an editor and put your FTP credentials (don't worry it is git ignored).
   * Run <pre><code>rake production deploy</code></pre>
   * And you are done!
   * If something goes wrong, you can always do it by hand: Just FTP-upload the contents of the <code>_deploy</code> folder to the proper location on your web server.

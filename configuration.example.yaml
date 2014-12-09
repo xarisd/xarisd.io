@@ -1,0 +1,19 @@
+presentations:
+  local_root: ~/path_to/presentations/root/where/you/must/put/your/git/repositories
+  presentations_to_copy:
+    - ruby-basics-ii
+    - rails-basics-01
+    - hacking-presentations
+deployment:
+  # You need a proper web server, otherwise the CSS won't work.
+  # You can specify as many environments as you like
+  - production:
+      server: production.ftp.server
+      server_folder: for_example_httpdocs
+      username: username_for_production_ftp
+      password: password_for_production_ftp
+  - staging:
+      server: staging.ftp.server
+      server_folder: for_example_httpdocs
+      username: username_for_staging_ftp
+      password: password_for_staging_ftp

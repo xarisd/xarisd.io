@@ -9,4 +9,7 @@ _deploy
 .ruby-version
 
 # DO NOT hold secrets in repository
-credentials.yaml
+configuration.yaml
+
+# DO NOT hold the Presentations in repository
+presentations
