@@ -5,7 +5,7 @@ permalink: /presentations/
 ---
 
 <p class="intro">
-  Here you will find my presentations. They are mostly about things I like to talk about during local meetup sessions and events.
+  My presentations are mostly about stuff I am passionate for and have been presented in local meetup sessions and events.
 </p>
 
 
