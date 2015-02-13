@@ -109,3 +109,30 @@ p.intro {
     }
   }
 }
+
+
+a.link-linkedin {
+  display: inline-block;
+  position: relative;
+}
+i.icon-linkedin {
+  width: 45px;
+  height : 45px;
+  // line-height: 45px;
+  display : inline-block;
+  /*background-image : "{% asset_path logo.png %}";/*url("assets/images/linkedin.png")*/
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  opacity: .7;
+  position: relative;
+  top : 4px;
+  background-position: center -3px;
+
+}
+
+.about-blurb__icons a:hover i {
+  // color: #0c84c5;
+  color: #7da1cd;
+}
+
+
