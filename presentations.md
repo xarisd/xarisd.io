@@ -5,7 +5,7 @@ permalink: /presentations/
 ---
 
 <p class="intro">
-  My presentations are mostly about stuff I am passionate for and have been presented in local meetup sessions and events.
+  My presentations are mostly about stuff I am passionate about and have been presented in local meetup sessions and events.
 </p>
 
 
@@ -15,12 +15,12 @@ permalink: /presentations/
   <li class="showcase-item favorite">
     <h3 class="title">{{ presentation.name }}</h3>
     <p class="event-info">
-      Last presented at <a href="{{ presentation.event.url }}" rel="nofollow">{{presentation.event.name}} on {{presentation.event.date}}</a></p>
+      Last presented at <a href="{{ presentation.event.url }}" rel="nofollow">{{presentation.event.name}} <!--on {{presentation.event.date}} --></a></p>
     <p class="description">
       {{ presentation.description }}
     </p>
     <p class="links">
-      <a class="preview" href="{{ presentation.url }}">View it online</a> or
+      <!--<a class="preview" href="{{ presentation.url }}">View it online</a> or-->
       <a class="source" href="{{ presentation.source }}" rel="nofollow">Explore the source code</a>
     </p>
   </li>
@@ -33,12 +33,12 @@ permalink: /presentations/
   <li class="showcase-item">
     <h3 class="title">{{ presentation.name }}</h3>
     <p class="event-info">
-      Last presented at <a href="{{ presentation.event.url }}" rel="nofollow">{{presentation.event.name}} on {{presentation.event.date}}</a></p>
+      Last presented at <a href="{{ presentation.event.url }}" rel="nofollow">{{presentation.event.name}} <!--on {{presentation.event.date}} --> </a></p>
     <p class="description">
       {{ presentation.description }}
     </p>
     <p class="links">
-      <a class="preview" href="{{ presentation.url }}">View it online</a> or
+      <!-- <a class="preview" href="{{ presentation.url }}">View it online</a> or -->
       <a class="source" href="{{ presentation.source }}" rel="nofollow">Explore the source code</a>
     </p>
   </li>

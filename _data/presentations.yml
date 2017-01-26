@@ -17,7 +17,7 @@
     name: Thessaloniki Ruby Meetup (thessrb)
     url: http://www.meetup.com/thessrb/events/189083642/
     date: 2014-09-20
-  description: A presentation about Ruby's very basics. This is the second version which include slides and code examples.
+  description: A presentation about Ruby's very basics. This is the second version which includes slides and code examples.
   url: ruby-basics-ii
   source: https://github.com/xarisd/ruby-basics-ii
   favorite: true

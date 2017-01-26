@@ -66,7 +66,7 @@ configuration["deployment"].each do | env |
     @environment = env_name
     @server = env["server"]
     @server_folder = env["server_folder"]
-    @user = env["username"]
+    @user = "\"#{env["username"]}\""
     @password = env["password"]
     @url = env["url"]
   end
